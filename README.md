@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="assets/screenshots/sample.png" alt="Sidebar Preview" width="250" />
+  <img src="assets/screenshots/sample.png" alt="Sidebar Preview" width="350" />
 </p>
 ---
 
