@@ -1,0 +1,11 @@
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  testDir: './tests',
+  timeout: 30000,
+  retries: 0,
+  workers: 1,
+  use: {
+    headless: false, // Chrome extensions in Playwright require persistentContext or headless: false or headless: 'new'
+  },
+});
