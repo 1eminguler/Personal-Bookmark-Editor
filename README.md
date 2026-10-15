@@ -11,7 +11,7 @@
 </p>
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 1. [Important Architectural Notice: Chromium Security Sandbox & New Tab Pages](#-important-architectural-notice-chromium-security-sandbox--new-tab-pages)
 2. [Key Features](#-key-features)
 3. [Architecture & Technology Stack](#-architecture--technology-stack)
@@ -23,7 +23,7 @@
 
 ---
 
-## 🔒 Important Architectural Notice: Chromium Security Sandbox & New Tab Pages
+##  Important Architectural Notice: Chromium Security Sandbox & New Tab Pages
 
 > [!IMPORTANT]
 > **Why browser extensions cannot inject DOM elements into `brave://newtab` or `chrome://newtab` without completely taking over and destroying the browser's native start page:**
@@ -61,7 +61,7 @@ To respect the user's browser choice and preserve Brave's native wallpapers and 
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 ### 1. Left-Edge Hover Trigger & Physical Tab
 - **Full-Height Continuous Edge (0 – 100vh):** Move your cursor to the leftmost edge anywhere on your screen (top, middle, or bottom) to trigger the sidebar.
@@ -104,7 +104,7 @@ To respect the user's browser choice and preserve Brave's native wallpapers and 
 - **Testing:** Playwright End-to-End browser test suite running against real Chromium extension instances.
 
 
-## 🚀 Installation Guide
+##  Installation Guide
 
 ### Step 1: Clone & Build
 ```bash
@@ -125,7 +125,7 @@ cd sahsi-bookmark
 
 ---
 
-## ⌨️ Keyboard Shortcuts & Usage
+##  Keyboard Shortcuts & Usage
 
 | Shortcut | Action |
 | :--- | :--- |
@@ -138,7 +138,7 @@ cd sahsi-bookmark
 
 ---
 
-## 🧪 Testing & Quality Assurance
+##  Testing & Quality Assurance
 
 Automated End-to-End (E2E) testing is performed with **Playwright** directly loading the extension into Chromium:
 
@@ -165,7 +165,7 @@ npm test
 
 ---
 
-## 🛡 Privacy & Offline Security
+##  Privacy & Offline Security
 
 - **100% Local & Offline:** Sahsi Bookmark does not communicate with external analytics, trackers, telemetry servers, or cloud APIs.
 - **Zero Third-Party Cookies or Tracking:** Bookmarks stay strictly within your browser's native `chrome.bookmarks` storage.
@@ -173,6 +173,6 @@ npm test
 
 ---
 
-## 📄 License
+##  License
 
 MIT License. Free and open source for personal and commercial use.
